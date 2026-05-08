@@ -1,7 +1,7 @@
 ---
 name: manage-postgresql-cloudnativepg-k8s
 description: Enable an AI agent to autonomously or semi-autonomously deploy, configure, operate, scale, backup, recover, monitor, upgrade, and troubleshoot highly available PostgreSQL clusters on any supported Kubernetes environment using the CloudNativePG (CNPG) operator.
-version: 1.29 (docs explored from https://cloudnative-pg.io/docs/1.29/)
+version: "1.2.9"
 ---
 
 # Postgreql Kubernetes Skill
@@ -372,3 +372,6 @@ When user asks e.g. “Deploy a 3-node HA Postgres 17 cluster with daily backups
 ## Tips
 - Extension Precedence: If the agent defines the same environment variable in `spec.env` and in an extension's `env` stanza, the extension-level variable takes precedence.
 - ServiceAccount Sharing: Remind users that if they use a shared `ServiceAccount`, they are responsible for ensuring it has the necessary permissions (RBAC) that the operator normally grants to its auto-generated accounts.
+
+**Documentation**
+- https://cloudnative-pg.io/docs/1.29/

@@ -1,7 +1,7 @@
 ---
 name: vllm-kubernetes
 description: Comprehensive guide for deploying vLLM (OpenAI-compatible LLM serving) on Kubernetes. Covers CPU-only, NVIDIA GPU, and AMD GPU (ROCm) deployments using raw manifests, Helm, KubeRay, and Production Stack. Includes resource scheduling, health probes (HTTP + gRPC), scaling, monitoring, and best practices
-version: 1.0
+version: "1.0"
 ---
 
 **Last Updated**: May 2026  

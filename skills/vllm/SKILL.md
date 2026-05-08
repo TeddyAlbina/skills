@@ -1,7 +1,7 @@
 ---
 name: vllm
 description: comprehensive knowledge of vLLM (a fast, easy-to-use library for LLM inference and serving). The agent can install, configure, run offline/online inference, serve OpenAI-compatible APIs, benchmark, contribute to the project, and use the full Python API/CLI..
-version: 1
+version: "2.0"
 ---
 
 **Core Capabilities**:
