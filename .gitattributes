@@ -1,0 +1,13 @@
+# Treat all common binary files as binary (no line-ending changes, no text diffs, etc.)
+*.png  binary
+*.jpg  binary
+*.jpeg binary
+*.gif  binary
+*.ico  binary
+*.pdf  binary
+
+* text eol=lf working-tree-encoding=UTF-8 encoding=utf-8
+*.sh eol=lf working-tree-encoding=UTF-8 encoding=utf-8
+*.ps1 eol=lf working-tree-encoding=UTF-8 encoding=utf-8
+*.md eol=lf working-tree-encoding=UTF-8 encoding=utf-8
+
