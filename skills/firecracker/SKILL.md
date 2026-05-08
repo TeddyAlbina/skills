@@ -1,28 +1,22 @@
-**# Firecracker & Jailer - SKILL.md**
-
 ---
-name: firecracker & Jailer
-description: Firecracker is an open-source Virtual Machine Monitor (VMM) developed by AWS (originally for AWS Lambda and Fargate). It creates and manages lightweight microVMs.
+name: firecracker-jailer
+description: Orchestrate Firecracker VMM and Jailer to deploy secure, lightweight microVMs. Capabilities: Full lifecycle management (create, configure, boot, snapshot) via REST API and CLI; manage VirtIO devices (Net, Block, Vsock) and rate limiting
+metadata:
+  version: "2.0"
 ---
-
-**Version:** 1.0 (based on Firecracker main as of 2026)  
-**Purpose:** Comprehensive knowledge base for engineers, DevOps, and platform teams working with Firecracker microVMs and its companion Jailer. Covers architecture, usage, best practices, security, detailed samples, and production guidance.
 
 ## 1. Introduction
 
-**Firecracker** is an open-source **Virtual Machine Monitor (VMM)** developed by AWS (originally for AWS Lambda and Fargate). It creates and manages lightweight **microVMs** — tiny virtual machines that deliver:
-
+**Firecracker** **Virtual Machine Monitor (VMM)** it deliver:
 - Hardware-level isolation of traditional VMs
 - Container-like speed, density, and resource efficiency
 
-Firecracker is written in **Rust**, runs on Linux with KVM, and is purpose-built for secure multi-tenant serverless and container workloads. It powers production services at massive scale while maintaining a minimal attack surface.
-
-**Jailer** is Firecracker’s official companion binary. It provides **defense-in-depth** by sandboxing the Firecracker process itself using Linux primitives (cgroups, namespaces, chroot, seccomp, privilege dropping). **Production deployments must use the Jailer.**
-
-**License:** Apache 2.0 (some crosvm-derived code under BSD-3-Clause).  
+**Jailer** provides **defense-in-depth** by sandboxing the Firecracker process itself using Linux primitives (cgroups, namespaces, chroot, seccomp, privilege dropping). **Production deployments must use the Jailer.**
+  
 **Official links:**
-- Website: https://firecracker-microvm.github.io/
-- Repo: https://github.com/firecracker-microvm/firecracker
+- website: https://firecracker-microvm.github.io/
+- github: https://github.com/firecracker-microvm/firecracker
+
 
 ## 2. Architecture & Design Principles
 
