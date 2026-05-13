@@ -1,6 +1,6 @@
 ---
 name: firecracker-jailer
-description: Orchestrate Firecracker VMM and Jailer to deploy secure, lightweight microVMs. Capabilities: Full lifecycle management (create, configure, boot, snapshot) via REST API and CLI; manage VirtIO devices (Net, Block, Vsock) and rate limiting
+description: Orchestrate Firecracker VMM and Jailer to deploy secure, lightweight microVMs. Full lifecycle management (create, configure, boot, snapshot) via REST API and CLI; manage VirtIO devices (Net, Block, Vsock) and rate limiting
 metadata:
   version: "2.0"
 ---

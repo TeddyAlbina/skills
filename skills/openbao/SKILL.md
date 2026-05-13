@@ -1,6 +1,6 @@
 ---
 name: openbao
-description: OpenBao is the **community-driven, Linux Foundation-hosted fork of HashiCorp Vault**. It delivers identical secrets-management power (dynamic secrets, KV, PKI, Transit, encryption-as-a-service, leasing/revocation) while remaining 100% open source (MPL 2.0). It is a **drop-in replacement** for Vault in most production environments..
+description: OpenBao is the open source fork of HashiCorp Vaul. It delivers identical secrets-management power (dynamic secrets, KV, PKI, Transit, encryption-as-a-service, leasing/revocation) while remaining 100% open source (MPL 2.0). It is a drop-in replacement for Vault in most production environments..
 ---
 
 **For AI Agents: Comprehensive OpenBao + Kubernetes Expertise Reference**  
