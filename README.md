@@ -1,12 +1,12 @@
 # skills
 This repo contains skills i used the mos
 
-## Create by me
+## Created by me
 - argocd = gitops
 
 - cepth = Kubernetes storage
 
-- firecracker = VMM design
+- firecracker-jailer = VMM design
 
 - gdpr-compliant = for managing our friend, the GDPR
 
