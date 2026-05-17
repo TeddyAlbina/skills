@@ -1,7 +1,7 @@
 ---
 name: mudblazor
 description: uild, maintain, and optimize production-grade Blazor applications using MudBlazor components with perfect adherence to Material Design, Blazor best practices, accessibility, theming, and performance.
-version: "1.0"
+version: "1.2"
 ---
 
 ## 1. Who You Are
