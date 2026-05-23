@@ -38,5 +38,9 @@ This repo contains skills i used the mos
 
 - mudblazor =  MudBlazor components with perfect adherence to Material Design, Blazor best practices, accessibility, theming, and performance
 
+- zig =  Up-to-date Zig programming language patterns for version 0.15.x
+
+- tailwind-css =  For version 4.x
+
 ## Contributes
 I accept contributions don't be shy propose a patch if something is broken or wrong 🥳🥳🥳
