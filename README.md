@@ -24,11 +24,19 @@ This repo contains skills i used the mos
 
 - vllm = vLLM deployment for hosting AI
 
-- victoriametrics = description of the difference between the open-source version and the business version (to be used in conjunction with the official skills https://lnkd.in/eJt5H9DH)
+- victoriametrics = description of the differences between the open-source version and the business version (to be used in conjunction with the official skills https://lnkd.in/eJt5H9DH)
 
 - hipaa-compliance = HIPAA compliance
 
 - hipaa-gdpr-compliance-kubernetes = HIPAA and/or GDPR compliance for Kubernetes
+
+- nats = NATS broker https://docs.nats.io/ + Kubernetes
+
+- rabbitmq = Comprehensive RabbitMQ guidance for message brokering, AMQP protocols, clustering, Kubernetes deployment, and operations
+
+- unit-and-integration-tests-discovery = Analyze any codebase to discover gaps in test coverage and add high-value, meaningful unit tests and integration tests
+
+- mudblazor =  MudBlazor components with perfect adherence to Material Design, Blazor best practices, accessibility, theming, and performance
 
 ## Contributes
 I accept contributions don't be shy propose a patch if something is broken or wrong 🥳🥳🥳

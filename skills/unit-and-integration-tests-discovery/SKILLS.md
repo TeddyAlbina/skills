@@ -113,14 +113,3 @@ coverage run -m pytest && coverage report
 This skill pairs perfectly with TDD, refactoring, or code-review skills.
 
 **Pro tip:** When in doubt, ask the user "Should I focus on unit tests, integration tests, or both for this module?" before writing.
-```
-
-**How to use this SKILL.md:**
-
-1. Create a folder (e.g. `.agents/skills/add-meaningful-unit-and-integration-tests/`)
-2. Save the content above as `SKILL.md` inside it
-3. Most modern AI coding agents (Claude Code, Cursor, OpenAI Codex, etc.) will automatically discover and use it when you mention adding tests or improving coverage.
-
-Copy, paste, and drop it into your project — your AI agent will now know exactly how to find and add *meaningful* tests! 🚀
-
-Let me know if you want variations (e.g., language-specific versions for Java, Go, Rust, etc.) or additional reference files.
