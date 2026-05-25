@@ -1,0 +1,5 @@
+Since we will use inflowpay i need you to create a complete agent "SKILL.md" file from their documentation website, the skill must be detailled and complete, use the agentskills standard, split the skill in sub markdown files referenced in the "SKILL.md" file.
+
+**Resources**
+- "https://agentskills.io/home"
+- "https://docs.inflowpay.com/docs/welcome-to-inflowpay"

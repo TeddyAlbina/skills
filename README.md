@@ -42,5 +42,7 @@ This repo contains skills i used the mos
 
 - tailwind-css =  For version 4.x
 
+- inflowpay = For inflowpay payment processor
+
 ## Contributes
 I accept contributions don't be shy propose a patch if something is broken or wrong 🥳🥳🥳
