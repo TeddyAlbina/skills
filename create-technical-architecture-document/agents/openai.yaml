@@ -1,0 +1,4 @@
+interface:
+  display_name: "Technical Architecture Document"
+  short_description: "Create rigorous living architecture documents"
+  default_prompt: "Use $create-technical-architecture-document to create a technical architecture document for this system."

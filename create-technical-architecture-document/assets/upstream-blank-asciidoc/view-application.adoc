@@ -1,0 +1,205 @@
+# Application view
+:sectnumlevels: 4
+:toclevels: 4
+:sectnums: 4
+:toc: left
+:icons: font
+:toc-title: Table of contents
+
+*Last modification* : _{docdate}_
+
+*Date of last full review* : 
+
+*Document status* :  
+
+[#74c82505-5f47-4342-8f1b-f6951d603062]
+## Introduction
+
+[#c182158d-40af-4840-b8f2-3a2a030c95af]
+### Reference Documentation
+[cols="1,1,4,4"]
+|===
+| N ° | Version | Document title / URL | Detail
+|
+|
+|
+|
+
+|===
+
+[#946b3119-a878-47ca-86f2-4c9e22ef0c89]
+## Not ruled
+
+[#0f9d2e4a-3c71-4b9e-8f3b-2b8c7d1e9a60]
+### Points subject to further study
+[cols="1,6,1,1,1"]
+|===
+| Subject | Detail | Status | Subject bearer | Deadline
+
+| 
+| 
+| 
+| 
+| 
+|===
+
+[#7a1cdb2e-4f52-42a1-9c3e-6e0f2d3a8b91]
+### Assumptions
+[cols="1,6"]
+|===
+| ID | Detail
+
+|
+|
+|===
+
+[#382fd086-f48e-4ad5-9911-07e3de281971]
+## General context
+
+[#a2b4c6d8-e0f1-4a2b-9c3d-5e6f7a8b9c0d]
+### Objectives
+
+[#c1d2e3f4-a5b6-4c7d-8e9f-0123456789ab]
+### Existing
+
+[#67bbae56-5ed3-4977-8467-2c951882d1a9]
+### Positioning in the IS
+
+[#9ca40d05-ab6e-42ab-aa3c-b9724373ae7f]
+### Actors
+
+#### Internal actors
+[cols="1,1,4,4"]
+|===
+| Actor | Description | Population | Location
+
+| 
+| 
+| 
+| 
+
+|===
+
+#### External actors
+[cols="1,1,1,1"]
+|===
+| Actor | Description | Population | Location
+
+| 
+| 
+| 
+| 
+
+|===
+
+[#deafbeef-dead-4bed-8ace-0b0b0b0b0b0b]
+#### Nature and Sensitivity of Data and Processing
+[%header,cols="2,3,3,2,1,1,1,1"]
+|===
+| Business Process | Purpose | Categories of Data Processed | Classification | C | I | A | T
+
+| 
+|
+|
+|
+| 
+|
+| 
+|
+|===
+
+[cols="1,5"]
+|===
+| Legend | \(C)onfidentiality (I)ntegrity (A)vailability (T)raceability / proof. Provide requirement : Low, Medium or High
+| Classification | Public, Internal, Restricted distribution, Confidential
+|===
+
+[#3b714287-891e-4ea3-a7a4-17672caaf945]
+## Constraints
+
+[#58897e87-0c12-4139-b5da-daec9cae21c6]
+### Budget Constraints
+
+[#ac5b1f28-bfcb-4543-a90b-abcff2b41822]
+### Planning Constraints
+
+[#5837249a-8fcc-4e42-9dd9-384c4fa32afc]
+### Urbanization
+
+[#abafa462-262f-429e-aad8-d2cdc0cf15a3]
+### Legal Constraints
+
+[#9352a89a-3f8b-4028-98d5-58fb970e01ef]
+## Requirements
+
+[#1b2c3d4e-5f60-47a1-82b3-c4d5e6f70809]
+### Strategic Requirements
+
+[#38fd6aa0-2354-4d0d-9812-10ed917eae5e]
+### Interoperability Requirements
+
+[#9efde825-9508-4669-918c-7cfb0d45c21f]
+### Concurrency management Requirements
+
+[#afdd573d-d1f8-4958-99c1-e404592396d0]
+### Degraded Modes Requirements
+
+[#4a3b2c1d-0e9f-4d8c-8b7a-6a5b4c3d2e1f]
+### Archiving Requirements
+
+[#fedcba98-7654-4321-8abc-0def12345678]
+### Retention Periods Requirements
+[cols="1,1"]
+|===
+| Data Class | Maximum Retention Period
+
+| 
+| 
+
+
+|===
+
+[#b269e65b-a8c7-4518-a861-5c6c17802869]
+## Target architecture
+
+[#2c107a25-a1c4-433d-b746-e12aa2c6eea1]
+### General application architecture
+
+[#6390e724-c2f0-4737-99a0-531fdcfe8e20]
+### Detailed application architecture
+
+[#f0c1b2a3-4d5e-46f7-88a9-b0c1d2e3f4a5]
+#### Principles that dictated the choices
+
+[#aa11bb22-cc33-44dd-88ee-ff0011223344]
+#### Inventory view
+
+[#123e4567-e89b-42d3-a456-426614174001]
+#### Links between modules
+
+[#9ac6e5d2-e9a0-427e-ba12-27dedbd8ac4d]
+### Transition paths
+
+[#5f6e7d8c-9b0a-4f3e-8d7c-6b5a4e3d2c1f]
+### Archiving
+TIP: See also <<4a3b2c1d-0e9f-4d8c-8b7a-6a5b4c3d2e1f,Archiving Requirements>>.
+
+[#0a1b2c3d-4e5f-4061-82a3-b4c5d6e7f809]
+### Purges
+TIP: See also <<fedcba98-7654-4321-8abc-0def12345678,Retention Periods Requirements>>.
+
+[#9f8e7d6c-5b4a-49a8-9c7d-6e5f4d3c2b1a]
+### Matrix of application flows
+[cols = '1, 3, 1, 1, 1']
+|===
+| Source | Destination | Network type | Protocol | Mode
+
+| 
+| 
+|
+|
+| 
+
+|===
+
+_Mode: Read\(R), Write (W) or Call\(C) to a stateless system_

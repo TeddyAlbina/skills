@@ -3,7 +3,7 @@ param(
     [string]$Path
 )
 
-$supportedExtensions = @('.md', '.sh', '.yml', '.yaml', '.json', '.cs', '.csproj', '.slnx', '.json', '.razor', '.props', '.ps1', '.sh', '.tf', '.sql', '.proto')
+$supportedExtensions = @('.md', '.sh', '.yml', '.yaml', '.json', '.cs', '.csproj', '.slnx', '.json', '.razor', '.props', '.ps1', '.sh', '.tf', '.sql', '.proto', '.adoc')
 
 # Resolve the input path
 $item = Get-Item -LiteralPath $Path -ErrorAction Stop
